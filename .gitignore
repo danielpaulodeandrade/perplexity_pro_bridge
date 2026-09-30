@@ -1,0 +1,28 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Testes e ferramentas
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Estado local da bridge
+runtime/
+.browser-profile/
+browser-profile/
+playwright-profile/
+selectors.local.json
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Editor/sistema
+.vscode/
+.idea/
+.DS_Store
