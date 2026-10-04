@@ -26,3 +26,12 @@ selectors.local.json
 .vscode/
 .idea/
 .DS_Store
+
+# Perfil, capturas e auditoria locais
+.browser_profile/
+data/captures/
+data/audit/
+
+# Backups locais de código
+*.bak
+src/ppro_bridge/read_probe_bkp.py
